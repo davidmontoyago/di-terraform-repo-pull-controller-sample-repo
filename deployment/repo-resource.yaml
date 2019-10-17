@@ -1,0 +1,8 @@
+---
+apiVersion: terraform.gitops.k8s.io/v1alpha1
+kind: Repo
+metadata:
+  name: sample-repo
+spec:
+  url: https://github.com/davidmontoyago/di-terraform-repo-pull-controller-sample-repo.git
+---
